@@ -1,0 +1,22 @@
+1. Loading Data:
+
+     Load the data from the CSV file using 'pd.read_csv'('home_prices.csv').
+     Print the first few rows of the dataset to verify the content.
+
+2.Preprocessing:
+
+     Separate the features ('income', 'schools', 'hospitals', 'crime_rate') and the target variable ('price').
+     Split the data into training and testing sets with an 80-20 ratio.
+
+3.Feature Scaling:
+
+     Standardize the features to ensure all have the same scale, which helps the model perform better.
+
+4.Training:
+ 
+     Convert the data into the DMatrix format required by XGBoost.
+     Define the model parameters and train the model on the training set.
+
+5.Evaluation:
+
+     Predict the prices on the test set and compute the RMSE to evaluate the model's performance.

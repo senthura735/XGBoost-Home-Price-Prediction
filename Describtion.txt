@@ -1,0 +1,12 @@
+Predicting home prices using XGBoost involves several steps, including data preparation, feature engineering, model training, and evaluation. Below is an outline of the process:
+
+
+1. Data Collection: Gather data on home prices along with factors such as income, schools, hospitals, and crime rates.
+
+2. Data Preprocessing: Clean the data, handle missing values, and encode categorical variables.
+
+3. Feature Engineering: Create new features if necessary and scale the data.
+
+4. Model Training: Train an XGBoost model on the data.
+
+5. Model Evaluation: Evaluate the model's performance using metrics like RMSE (Root Mean Squared Error).
